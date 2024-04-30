@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(212, 212, 243);
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 39%;
+  height: 520px;
+  background-color: rgb(232, 252, 227);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.main > div {
+  width: 12.5%;
+  height: 65px;
+  font-size: 3rem;
+  text-align: center;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.main > .lightgreen {
+  background-color: rgb(218, 252, 210);
+}
+
+.main > .green {
+  background-color: rgb(69, 161, 69);
+}
+
+.bottom {
+  color: #fff;
+  text-shadow: 5px 6px 4px black;
+}
